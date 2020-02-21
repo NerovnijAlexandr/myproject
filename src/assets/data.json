@@ -1,0 +1,98 @@
+{
+  "categories":
+  [
+    {"id":1,"name":"Огромные телефоны"},
+    {"id":2,"name":"Большие телефоны"},
+    {"id":3,"name":"Нормальные телефоны"}
+  ],
+  "products":[
+    {
+      "id":1,
+      "name": "TP-Link Neffos C9a",
+      "cost_per_one": 5999,
+      "img": "https://i1.rozetka.ua/goods/6301342/tp_link_tp706a24ua_images_6301342886.jpg",
+      "about": "Экран (5.45'', IPS, 1440x720)/ MediaTek MTK6739WW (1.5 ГГц) / основная камера: 13 Мп, фронтальная камера: 5 Мп/ RAM 2 ГБ/ 16 ГБ встроенной памяти + microSD (до 128 ГБ)/ 3G/ LTE/ GPS/ A-GPS/ ГЛОНАСС/ поддержка 2х SIM-карт (Nano-SIM)/ Android 8.1 (Oreo) / 3020 мА*ч",
+      "category_id": 1
+    },
+    {
+      "id":2,
+      "name": "Samsung Galaxy S9 4/64GB Midnight Black",
+      "cost_per_one": 9999,
+      "img": "https://i1.rozetka.ua/goods/3249371/samsung_galaxy_s9_64gb_black_images_3249371727.jpg",
+      "about": "Экран (5.8'', Super AMOLED, 2960х1440)/ Samsung Exynos 9810 (4 x 2.7 ГГц + 4 x 1.7 ГГц)/ основная камера 12 Мп + фронтальная 8 Мп/ RAM 4 ГБ/ 64 ГБ встроенной памяти + microSD (до 400 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 8.0 (Oreo) / 3000 мА*чПоддерживается установка двух SIM-карт или одной SIM-карты и карты памяти. Слот для второй SIM-карты совмещен со слотом для карты памяти.",
+      "category_id": 2
+    },
+    {
+      "id":3,
+      "name": "Xiaomi Redmi Note 8T 4/128GB",
+      "cost_per_one": 5699,
+      "img": "https://i8.rozetka.ua/goods/14964567/copy_xiaomi_redmi_note_8t_524156_5dc3f37998b45_images_14964567424.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 3
+    },
+    {
+      "id":4,
+      "name": "Samsung Galaxy A51 6/128GB",
+      "cost_per_one": 4099,
+      "img": "https://i8.rozetka.ua/goods/16041151/copy_samsung_sm_a515fzwusek_5e04c47d16006_images_16041151799.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 1
+    },
+    {
+      "id":5,
+      "name": "Samsung Galaxy M10 2/16GB",
+      "cost_per_one": 2969,
+      "img": "https://i1.rozetka.ua/goods/12536158/samsung_sm_m105gzbgsek_images_12536158642.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 2
+    },
+    {
+      "id":6,
+      "name": "Fly Life Compact Dark Blue",
+      "cost_per_one": 999,
+      "img": "https://i1.rozetka.ua/goods/11474099/fly_life_compact_dark_blue_images_11474099186.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 3
+    },
+    {
+      "id":7,
+      "name": "Samsung Galaxy A40 4/64GB",
+      "cost_per_one": 6749,
+      "img": "https://i2.rozetka.ua/goods/11484425/samsung_sm_a405fzbdsek_images_11484425546.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 1
+    },
+    {
+      "id":8,
+      "name": "Huawei P Smart Pro 6/128GB",
+      "cost_per_one": 7499,
+      "img": "https://i1.rozetka.ua/goods/14991941/huawei_p_smart_pro_6_128_black_images_14991941596.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 2
+    },
+    {
+      "id":9,
+      "name": "Nokia 7.2 4/64GB Ice",
+      "cost_per_one": 6299,
+      "img": "https://i1.rozetka.ua/goods/13891308/nokia_7_2_4_64gb_silver_images_13891308811.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 1
+    },
+    {
+      "id":10,
+      "name": "Blackview A60 Pro 3/16GB",
+      "cost_per_one": 2899,
+      "img": "https://i1.rozetka.ua/goods/13932824/blackview_6931548305767_images_13932824398.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 3
+    },
+    {
+      "id":1,
+      "name": "Xiaomi Mi Note 10 6/128GB Aurora Green",
+      "cost_per_one": 12499,
+      "img": "https://i2.rozetka.ua/goods/14967810/xiaomi_mi_note_10_6_128gb_green_images_14967810762.jpg",
+      "about": "Экран (6.3, IPS, 2340x1080)/ Qualcomm Snapdragon 665 (2.0 ГГц)/ квадро основная камера: 48 Мп + 8 Мп + 2 Мп + 2 Мп, фронтальная камера: 13 Мп/ RAM 4 ГБ/ 128 ГБ встроенной памяти + microSD (до 256 ГБ)/ 3G/ LTE/ GPS/ поддержка 2х SIM-карт (Nano-SIM)/ Android 9.0 (Pie) / 4000 мА*ч",
+      "category_id": 2
+    }
+  ]
+}
