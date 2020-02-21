@@ -34,7 +34,7 @@
                             <div class="px-5 pt-3">
                                 <input type="number" v-model.number="product.count" min=1
                                        @change="change_count(product.id, product.count)"
-                                       class="text-2xl w-1/2 border-2 border-blue-400 rounded"
+                                       class="text-2xl w-1/2 border-2 border-blue-400 rounded pl-2"
                                 >
                             </div>
                             <div class="px-5">
@@ -54,7 +54,7 @@
                         <p v-if="products_in_basket.length > 0"><span>Total cost:</span><cost :cost="total_cost" class="px-2"></cost></p>
                         <p v-else>Ваша корзина пока пуста</p>
                     </div>
-                    <div class="pl-5 pt-2">
+                    <div class="pl-5 pt-2" v-if="products_in_basket.length > 0">
                         <button class="px-4 py-2 bg-blue-300 hover:bg-blue-200 rounded font-bold">Оформить</button>
                     </div>
                 </div>

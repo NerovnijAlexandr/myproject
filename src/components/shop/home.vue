@@ -15,6 +15,14 @@
             categories,
             'my-header': my_header
         },
+        methods: {
+            get_data() {
+                this.$store.dispatch('get_data');
+            }
+        },
+        created() {
+            this.get_data();
+        }
 
     }
 </script>

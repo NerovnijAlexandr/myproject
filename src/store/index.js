@@ -6,8 +6,8 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state: {
-        categories: jdata.categories,
-        products: jdata.products,
+        categories: [],
+        products: [],
         basket: [],
     },
     getters: {
@@ -28,6 +28,10 @@ export default new Vuex.Store({
         }
     },
     mutations: {
+        get_data(state, payload) {
+            state.categories = payload.categories;
+            state.products = payload.products;
+        },
         add_to_basket: (state, payload) => {
             let product = state.products.find(product => product.id === payload.id);
             let is_in = true;
@@ -54,6 +58,8 @@ export default new Vuex.Store({
         }
     },
     actions: {
-
+        get_data(context) {
+            context.commit('get_data', jdata);
+        }
     }
 });
