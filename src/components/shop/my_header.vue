@@ -12,13 +12,13 @@
                 <div class="w-full flex justify-between  text-white">
                     <div class="text-center w-full">
                         <p class="text-4xl font-bold">
-                            Магазин <span class="uppercase">больших</span> скидок
+                            Магазин больших скидок
                         </p>
                     </div>
                     <div class="mt-3" id="basket">
                         <router-link
                                 :class="{'text-green-600': basket_count > 0}"
-                                class="text-2xl font-bold hover:underline"
+                                class="text-2xl font-bold hover:underline hover:border-green-600 px-2 py-1 rounded"
                                 :to="{name: 'basket'}"
                                 exact
                         >Корзина({{ basket_count }})</router-link>

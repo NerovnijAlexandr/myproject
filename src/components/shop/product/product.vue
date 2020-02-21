@@ -8,7 +8,7 @@
             <div class="flex flex-col">
                 <div class="flex justify-between py-5">
                     <h2 class="text-4xl">{{ product.name }}</h2>
-                    <div class="text-2x1 pt-3"><span class="text-2xl" title="Категория">{{ category.name }}</span></div>
+                    <div class="text-2x1 text-gray-400 text-right"><span class="text-2xl" title="Категория">{{ category.name }}</span></div>
                 </div>
                 <div class="flex">
                     <img :src="product.img" alt="product">
@@ -16,9 +16,8 @@
                         <div>
                             <cost :cost="product.cost_per_one" class="pr-5"></cost>
                             <button @click="add_to_basket"
-                                    class="bg-green-600 hover:bg-green-500 text-white font-bold py-2 px-4 align-bottom inline-block rounded">
-                                Купить
-                            </button>
+                                    class="bg-green-600 hover:bg-green-500 text-white font-bold py-2 px-4 align-bottom inline-block rounded"
+                            >{{ buy_text }}</button>
                         </div>
                         <div class="pt-5">
                             <p class="text-2xl">
@@ -67,6 +66,9 @@
         computed: {
             category() {
                 return this.$store.getters.get_category(this.product.category_id);
+            },
+            buy_text() {
+                return this.$store.getters.is_product_contains_in_basket(this.product.id) ? 'Купить' : 'В корзине';
             }
         },
         created() {

@@ -23,6 +23,9 @@ export default new Vuex.Store({
         },
         products_in_basket: state => state.basket,
         basket_count: state => state.basket.length,
+        is_product_contains_in_basket: state => id => {
+            return state.basket.find(product => product.id === id) == null;
+        }
     },
     mutations: {
         add_to_basket: (state, payload) => {
