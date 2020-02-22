@@ -51,7 +51,10 @@
                 </ul>
                 <div class="py-5 flex justify-between">
                     <div class="text-2xl">
-                        <p v-if="products_in_basket.length > 0"><span>Total cost:</span><cost :cost="total_cost" class="px-2"></cost></p>
+                        <p v-if="products_in_basket.length > 0">
+                            <span>Total cost:</span><cost :cost="total_cost" class="px-2"></cost>
+                            <span>Total cost with discont {{ get_discont }}%:</span><cost :cost="total_cost_with_discont" class="px-2"></cost>
+                            </p>
                         <p v-else>Ваша корзина пока пуста</p>
                     </div>
                     <div class="pl-5 pt-2" v-if="products_in_basket.length > 0">
@@ -81,11 +84,13 @@
         data() {
             return {
                 total_cost: 0,
+                total_cost_with_discont: 0,
             }
         },
         computed: {
             ...mapGetters([
-                'products_in_basket'
+                'products_in_basket',
+                'get_discont',
             ]),
         },
         methods: {
@@ -106,6 +111,10 @@
                 this.total_cost = this.products_in_basket.reduce(
                     (prev, cur) => prev + cur.total, 0
                 );
+                this.set_discont();
+            },
+            set_discont() {
+                this.total_cost_with_discont = Math.round(this.total_cost * (1 - this.get_discont/100), 2);
             },
             back() {
                 this.$router.push({name: "home"});

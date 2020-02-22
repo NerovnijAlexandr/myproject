@@ -9,6 +9,7 @@ export default new Vuex.Store({
         categories: [],
         products: [],
         basket: [],
+        discont: 10,
     },
     getters: {
         categories: state => state.categories,
@@ -25,7 +26,8 @@ export default new Vuex.Store({
         basket_count: state => state.basket.length,
         is_product_contains_in_basket: state => id => {
             return state.basket.find(product => product.id === id) == null;
-        }
+        },
+        get_discont: state => state.discont,
     },
     mutations: {
         get_data(state, payload) {
